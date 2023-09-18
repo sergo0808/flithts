@@ -1,0 +1,16 @@
+.flightslist {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.btn_add {
+  cursor: pointer;
+  font-size: 20px;
+  height: 38px;
+  margin-left: 203px;
+  max-width: 255px;
+  border: none;
+  color: white;
+  background-color: #ffb168;
+}

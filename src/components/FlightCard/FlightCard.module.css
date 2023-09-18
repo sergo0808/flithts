@@ -1,0 +1,102 @@
+.flightCard {
+  max-width: 644px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+}
+
+.title {
+  max-width: 642px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-color: #0087c9;
+}
+
+.amount_price {
+  margin: 0;
+  margin-right: 14px;
+  color: white;
+  font-size: 21px;
+}
+
+.amount_text {
+  margin: 0;
+  margin-right: 14px;
+  color: white;
+  font-size: 11px;
+}
+.leg {
+  border-top: 2px solid #0087c9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flight_info {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.flight_text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.uid_text {
+  margin: 0;
+  color: #0087c9;
+}
+
+.timing {
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 111px;
+}
+
+.layovers {
+  margin: 0;
+  margin-bottom: 11px;
+  position: relative;
+  color: #ffb168;
+}
+
+.layovers::before,
+.layovers::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  width: 250%;
+  height: 1px;
+  background-color: rgb(89, 89, 89);
+  display: inline-block;
+}
+
+.layovers::before {
+  right: 100%;
+}
+
+.layovers::after {
+  left: 100%;
+}
+
+.carrier {
+  margin: 0;
+  margin-left: 24px;
+  align-self: flex-start;
+  margin-bottom: 8px;
+}
+
+.btn_choose {
+  height: 40px;
+  background-color: #ffb168;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
